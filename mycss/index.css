@@ -1,0 +1,65 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Sriracha','corsive';
+}
+
+body{
+    overflow: hidden;
+}
+
+.bg{
+    width: 100%;
+    height:max-content;
+    position: fixed;
+    z-index: -1;
+}
+
+.heading{
+    padding-top: 70px;
+}
+
+h1{
+    font-size: 40px;
+    color: rgb(241, 77, 77);
+    text-align: center;
+}
+
+.heading .div1 p{
+    color: rgb(19, 16, 18);
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+
+.heading .div1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+button{
+    width: 9%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background:none;
+    border-radius: 5px;
+    border-width: 4px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+p{
+    color: rgb(231, 59, 59);
+    font-size: 35px;
+}
+
+.logn{
+    text-align: center;
+}
+
+
+
+
+
+

@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+}
+.header{
+    height: 100px;
+    background-color: skyblue;
+    display: flex;
+}
+
+.divh1{
+    /*background-color: rgb(185, 28, 28);*/
+    width: 90%;
+    text-align: center;
+    
+}
+
+.divh2{
+    /*background-color: rgb(45, 182, 136);*/
+    text-align: center;
+    width: 10%;
+}
+
+.divh1 h1{
+    margin-top: 30px;
+    margin-left: 15%;
+}
+
+.divh2 button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.divh2 button :hover{
+    background-color: red;
+}
+
+.table_th{
+    padding: 5px 60px 5px 60px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(9, 13, 15);
+}
+
+.table_td{
+    padding: 5px 60px 5px 60px;
+    text-align: center;
+    
+    font-weight: bold;
+    
+}
+
+.tabletdi {
+    padding: 5px 60px 5px 60px;
+    text-align: left;
+    font-weight: bold;
+    border: none;
+}
+
+tr.tabledi td {
+    border-bottom: 1pt solid #ff000d;
+}
+
+.tableintro{
+    font-size: 20px;
+}
+
+.main{
+    text-align: center;
+    font-size: 25px;
+    margin: 8px 0px 8px 0px;
+    font-weight: bold;
+    border-bottom-style: double;
+    border-bottom-color: black;
+    border-top-style: double;
+    border-top-color: black;
+}
+
+.one{
+    width: 50%;
+    float: right;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.two{
+    width: 50%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.two p{
+    margin-left: 170px;
+}
+
+.one p{
+    margin-left: 180px;
+}
+
+
+
+
+
+
+
+
+
