@@ -1,0 +1,185 @@
+<?php
+    include('connection.php') ;
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel = "stylesheet"  href="mycss/result.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        .button {
+          display: inline-block;
+          border-radius: 4px;
+          background-color:skyblue;
+          color: #1d1515;
+          text-align: center;
+          font-size: 16px;
+          padding: 4px;
+          width: 80px;
+          transition: all 0.5s;
+          cursor: pointer;
+          margin: 5px;
+          font-weight: bold;
+          border: 2px ;
+        }
+        
+        .button span {
+            border: 2px;
+          cursor: pointer;
+          display: inline-block;
+          position: relative;
+          transition: 0.5s;
+        }
+        
+        .button span:after {
+            border: 2px;
+          content: '\00bb';
+          position: absolute;
+          opacity: 0;
+          top: 0;
+          right: -20px;
+          transition: 0.5s;
+        }
+        
+        .button:hover span {
+          padding-right: 25px;
+        }
+        
+        .button:hover span:after {
+          opacity: 1;
+          right: 0;
+        }
+        </style>
+</head>
+<body>
+    <header class = "header">
+        <div class = "divh1"><h1>Elpis Global School</h1></div>
+        <div class = "divh2"><button>BACK</button></div>
+    </header>
+
+    
+
+    <div class = "main">
+        <u><p>Report Card</p></u>
+        <p> Academic Session: 2022-2023 </p>
+    </div>
+    <br>
+    <div >
+        <center> 
+    <table class = "tableintro">
+
+          
+            <tr>
+                <td class = "tabletdi">Name :</td>
+                <td class = "tabletdi">Pranshu Verma</td>
+            </tr>
+
+            <tr>
+                <td class = "tabletdi">Class : </td>
+                <td class = "tabletdi" color= 'blue'>12</td>
+            </tr>
+
+            <tr>
+                <td class = "tabletdi">Roll No. :</td>
+                <td class = "tabletdi">18</td>
+            </tr>
+
+        </table>
+        </center>
+    </div>
+    <br>
+    <div class = "resulttable">
+        <center>
+    <table border=1px>
+            <tr>
+                <th class = "table_th">Subject</th>
+                <th class = "table_th">Total Marks</th>
+                <th class = "table_th">Marks Obtained</th>
+                
+            </tr>
+
+          
+            <tr>
+                <td class = "table_td">
+                    English
+                </td>
+                <td class = "table_td">
+                    100
+                <td class = "table_td">
+                    91
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td class = "table_td">
+                    Math
+                </td>
+                <td class = "table_td">
+                    100
+                <td class = "table_td">
+                    87
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td class = "table_td">
+                    Science
+                </td>
+                <td class = "table_td">
+                    100
+                <td class = "table_td">
+                    78
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td class = "table_td">
+                    Hindi
+                </td>
+                <td class = "table_td">
+                    100
+                <td class = "table_td">
+                    89
+                </td>
+                
+            </tr>
+
+            <tr>
+                <td class = "table_td">
+                    Computer
+                </td>
+                <td class = "table_td">
+                    100
+                <td class = "table_td">
+                    82
+                </td>
+                
+            </tr>
+
+           
+
+        </table>
+        </center>
+        
+
+    </div>
+
+
+    <div class ="one">
+        <p class = 'failed'>Status : Failed</p>
+        <p class = 'passed'>Status : Passed</p>
+    </div> 
+    <div class = "two"><p>Total : 255 / 500 <br> Percentage: 84%</p></div> 
+    <center>
+    <button class="button" style="vertical-align:middle"><span>Print</span>
+    </center>
+    
+</body>
+</html>
